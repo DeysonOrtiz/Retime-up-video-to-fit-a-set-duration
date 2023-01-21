@@ -1,7 +1,7 @@
 # Retime up video to fit a set duration using FFMPEG
 
-** Be sure to change the input and output file names to suit your needs.
-** Change the number 8 to the duration you need.
+- Be sure to change the input and output file names to suit your needs.
+- Change the number 8 to the duration you need.
 
 The code first gets the duration of the video, then it calculates the number of seconds to slow down the video and finally it uses ffmpeg command to slow down the video by the calculated number of seconds and saves it to an output file.
 
